@@ -46,6 +46,7 @@ npm test
 - The letter y is considered a consonant
 - White space is included in the length of a string
 - The filetype of the input files is .txt
+- User is comfortable using the command line
 
 ## Solution Formation
 
