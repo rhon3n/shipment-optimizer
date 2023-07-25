@@ -39,11 +39,11 @@ Steps I thought of and executed to solve the problem:
 
 1. Clone the repo to your local machine in the directory of your choice _(e.g. ~/dev/)_
    ```sh
-   git clone <repo_url>
+   git clone https://github.com/rhon3n/shipment-optimizer.git
    ```
 2. Change to the root directory of the project
    ```sh
-   cd <project_root>
+   cd shipment-optimizer
    ```
 3. Install NPM packages
    ```sh
