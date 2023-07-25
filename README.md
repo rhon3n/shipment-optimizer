@@ -29,7 +29,11 @@ Once installed, it can be used by running the following command in the terminal 
 node app.js <name_of_destinations_file> <name_of_drivers_file>
 ```
 
-The destinations file should be a text file with a list of destinations, one per line. The drivers file should be a text file with a list of drivers, one per line. The output will be the total suitability score and a list of drivers matched with destinations one per line, with the driver's name followed by the destinations they will be delivering to.
+The first argument is expected to be the name of the destinations file, and the second argument is expected to be the name of the drivers file.
+
+Each of these files should be `.txt` files with entries seperated by newlines and should be present in the root directory of the project
+
+The output will be a console log of the total suitability score and a list of drivers matched with destinations one per line, with the driver's name followed by the destinations they will be delivering to.
 
 ## Testing
 
