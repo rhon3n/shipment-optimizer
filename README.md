@@ -2,37 +2,6 @@
 
 The Shipment Optimizer is a command line tool written in NodeJS that allows you to optimize your shipments between multiple locations with an equal amount of drivers.
 
-## Assumptions
-
-- The number of drivers is equal to the number of destinations
-- The letter y is considered a consonant
-- White space is included in the length of a string
-- The filetype of the input files is .txt
-
-## Solution Formation
-
-Steps I thought of and executed to solve the problem:
-
-### Step 1: Address the problem
-
-1. Create a function, `calculateSuitabilityScore`, to calculate and return the suitability score of a driver for a given destination.
-2. Create a function, `optimizeShipments`, to optimize matching between destinations and drivers based on suitability score.
-3. Create a function, `calculateTotalSuitabilityScore`, that will return the total suitability score of a given set of matches.
-
-### Step 2: Render the output
-
-1. Create a function that handles the input and output of the program.
-   - Check for valid input.
-   - Read the input files.
-   - Call the functions created in Step 1.
-   - Render the output.
-
-## Libraries/Tools used
-
-- Written in Node using `import` syntax. Tested using [Node.js](https://nodejs.org/en/) v18.15.0
-- Using [Mocha](https://mochajs.org/) v10.2.0 for testing.
-- Console output styled using [Chalk](https://www.npmjs.com/package/chalk) v5.3.0.
-
 ## Getting Started
 
 ### Installation
@@ -70,6 +39,37 @@ The Shipment Optimizer uses Mocha for testing. To run the tests, run the followi
 ## in project root
 npm test
 ```
+
+## Assumptions
+
+- The number of drivers is equal to the number of destinations
+- The letter y is considered a consonant
+- White space is included in the length of a string
+- The filetype of the input files is .txt
+
+## Solution Formation
+
+Steps I thought of and executed to solve the problem:
+
+### Step 1: Address the problem
+
+1. Create a function, `calculateSuitabilityScore`, to calculate and return the suitability score of a driver for a given destination.
+2. Create a function, `optimizeShipments`, to optimize matching between destinations and drivers based on suitability score.
+3. Create a function, `calculateTotalSuitabilityScore`, that will return the total suitability score of a given set of matches.
+
+### Step 2: Render the output
+
+1. Create a function that handles the input and output of the program.
+   - Check for valid input.
+   - Read the input files.
+   - Call the functions created in Step 1.
+   - Render the output.
+
+## Libraries/Tools used
+
+- Written in Node using `import` syntax. Tested using [Node.js](https://nodejs.org/en/) v18.15.0
+- Using [Mocha](https://mochajs.org/) v10.2.0 for testing.
+- Console output styled using [Chalk](https://www.npmjs.com/package/chalk) v5.3.0.
 
 ## Decisions and Tradeoffs
 
