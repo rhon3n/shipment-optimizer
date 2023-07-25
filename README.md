@@ -76,6 +76,7 @@ npm test
 - I decided to go with a procedural approach to solving the problem, as I felt it would be easier to test and reason about.
 - There are areas of the code that could be improved. However, given the time constraints, I decided to focus on getting the code working and tested.
 - I originally wanted to use TypeScript to type check the code. However, since the problem was relatively simple, I decided to use plain JavaScript to save time and reduce complexity.
+- I decided to use a simple console output to display the results. If this were a real-world project, I would have created a UI to make it easier to use.
 
 ## Future Improvements
 
