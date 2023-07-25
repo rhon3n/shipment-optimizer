@@ -14,7 +14,7 @@ export function calculateSuitabilityScore(destination, driver) {
   if (destinationLength % 2 === 0) {
     suitabilityScore = driver.split('').filter(char => vowels.includes(char)).length * 1.5;
   } else {
-    suitabilityScore = driver.split('').filter(char => consonants.includes(char)).length * 1;
+    suitabilityScore = driver.split('').filter(char => consonants.includes(char)).length;
   }
 
   // Check for common factors between the destination length and driver length
